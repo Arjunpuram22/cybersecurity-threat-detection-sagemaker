@@ -13,5 +13,3 @@ This project covers the entire lifecycle — from **data preprocessing** to **au
 - Clean, modular repo with Jupyter notebooks and result screenshots  
 
 ---
-
-## 📁 Repository Structure
