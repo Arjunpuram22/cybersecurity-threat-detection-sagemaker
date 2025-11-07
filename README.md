@@ -48,3 +48,22 @@ This project was developed in **four main phases**, following a complete ML life
 - Saved processed dataset back to S3 for training.
 
 **Output Location (S3):**
+
+---
+
+### 🧠 Phase 2 — Model Training and Evaluation
+**Notebook:** `notebooks/02modeltraining_and_evaluation.ipynb`
+
+- Trained an **XGBoost binary classification model** using SageMaker.
+- Optimized hyperparameters for best accuracy and F1-score.
+- Evaluated model performance on a test dataset.
+
+**Results:**
+| Metric | Value |
+|--------|--------|
+| Accuracy | 95.6% |
+| Precision | 0.96 |
+| Recall | 0.98 |
+| F1-Score | 0.97 |
+
+**Model Output (S3):**
