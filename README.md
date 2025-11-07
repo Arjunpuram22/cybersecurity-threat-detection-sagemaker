@@ -31,3 +31,20 @@ The following diagram illustrates the end-to-end **Cybersecurity Threat Detectio
 7. **SageMaker Endpoint** – Deployed model for real-time threat detection.  
 
 ---
+---
+
+## ⚙️ Project Phases
+
+This project was developed in **four main phases**, following a complete ML lifecycle using **Amazon SageMaker**.
+
+---
+
+### 🧹 Phase 1 — Data Preprocessing
+**Notebook:** `notebooks/data_preprocessing.ipynb`
+
+- Loaded the **UNSW-NB15 dataset** from S3.
+- Cleaned missing data and removed unnecessary columns.
+- Encoded categorical variables and normalized numerical features.
+- Saved processed dataset back to S3 for training.
+
+**Output Location (S3):**
