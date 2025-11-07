@@ -13,3 +13,21 @@ This project covers the entire lifecycle — from **data preprocessing** to **au
 - Clean, modular repo with Jupyter notebooks and result screenshots  
 
 ---
+---
+
+## 🧱 Architecture Diagram
+
+The following diagram illustrates the end-to-end **Cybersecurity Threat Detection Pipeline** built on AWS:
+
+![Cybersecurity Threat Detection Pipeline](screenshots/architecture2.png)
+
+**Workflow Summary:**
+1. **Amazon S3** – Collects raw network logs.  
+2. **AWS Lambda** – Processes and transforms logs into structured datasets.  
+3. **Amazon S3** – Stores the processed dataset.  
+4. **Amazon SageMaker** – Trains the XGBoost model using pipelines.  
+5. **AWS IAM** – Manages access and permissions.  
+6. **Amazon CloudWatch** – Logs metrics and monitors endpoint activity.  
+7. **SageMaker Endpoint** – Deployed model for real-time threat detection.  
+
+---
