@@ -47,8 +47,6 @@ This project was developed in **four main phases**, following a complete ML life
 - Encoded categorical variables and normalized numerical features.
 - Saved processed dataset back to S3 for training.
 
-**Output Location (S3):**
-
 ---
 
 ### 🧠 Phase 2 — Model Training and Evaluation
@@ -87,5 +85,3 @@ This project was developed in **four main phases**, following a complete ML life
 - **Model Name:** `cybersecurity-threat-xgboost`
 - **Endpoint Name:** `cybersecurity-xgboost-endpoint`
 - **IAM Role:** `arn:aws:iam::907759099913:role/SageMakerCybersecurityRole`
-
-**S3 Location:**
