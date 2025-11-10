@@ -67,3 +67,8 @@ This project was developed in **four main phases**, following a complete ML life
 | F1-Score | 0.97 |
 
 **Model Output (S3):**
+**Screenshots:**
+| Screenshot | Description |
+|-------------|-------------|
+| ![xgboost_endpoint](screenshots/xgboost_endpoint.png) | SageMaker XGBoost training job successfully completed |
+| ![xgboost_prediction_output](screenshots/xgboost_prediction_output.png) | Model evaluation and prediction output from notebook |
