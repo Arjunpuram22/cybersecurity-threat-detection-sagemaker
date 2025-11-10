@@ -72,3 +72,20 @@ This project was developed in **four main phases**, following a complete ML life
 |-------------|-------------|
 | ![xgboost_endpoint](screenshots/xgboost_endpoint.png) | SageMaker XGBoost training job successfully completed |
 | ![xgboost_prediction_output](screenshots/xgboost_prediction_output.png) | Model evaluation and prediction output from notebook |
+
+---
+
+### 🚀 Phase 3 — Model Deployment
+**Notebook:** `notebooks/03model_deployment.ipynb`
+
+- Registered the trained **XGBoost model** as a SageMaker Model.  
+- Created a **SageMaker Endpoint** to enable real-time inference.  
+- Tested the endpoint with sample input data to verify predictions.  
+- Integrated CloudWatch to monitor endpoint performance.  
+
+**Deployment Details:**
+- **Model Name:** `cybersecurity-threat-xgboost`
+- **Endpoint Name:** `cybersecurity-xgboost-endpoint`
+- **IAM Role:** `arn:aws:iam::907759099913:role/SageMakerCybersecurityRole`
+
+**S3 Location:**
