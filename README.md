@@ -85,3 +85,19 @@ This project was developed in **four main phases**, following a complete ML life
 - **Model Name:** `cybersecurity-threat-xgboost`
 - **Endpoint Name:** `cybersecurity-xgboost-endpoint`
 - **IAM Role:** `arn:aws:iam::907759099913:role/SageMakerCybersecurityRole`
+
+---
+
+### 🔄 Phase 4 — Automation with SageMaker Pipelines & EventBridge
+**Notebook:** `notebooks/04automation_pipeline.ipynb`
+
+- Built an **automated ML workflow** using **Amazon SageMaker Pipelines**.  
+- Defined a pipeline that automatically trains and stores the model artifacts in S3.  
+- Configured **AWS EventBridge** to trigger retraining automatically when new data is uploaded to the S3 bucket.  
+- Ensured full pipeline execution from data input → model retraining → output storage.
+
+**Pipeline Configuration:**
+- **Pipeline Name:** `simple-cybersecurity-pipeline`
+- **Training Step:** `TrainCybersecurityModel`
+- **Instance Type:** `ml.m5.large`
+
