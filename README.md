@@ -100,4 +100,18 @@ This project was developed in **four main phases**, following a complete ML life
 - **Pipeline Name:** `simple-cybersecurity-pipeline`
 - **Training Step:** `TrainCybersecurityModel`
 - **Instance Type:** `ml.m5.large`
+- 
+**Screenshots:**
+| Screenshot | Description |
+|-------------|-------------|
+| ![pipeline_execution_success](screenshots/pipeline_execution_success.png) | SageMaker pipeline execution showing status **Completed** |
+| ![pipeline_output_s3](screenshots/pipeline_output_s3.png) | S3 bucket containing generated pipeline output model artifacts |
+| ![eventbridge_rule](screenshots/eventbridge_rule.png) | AWS EventBridge rule configured to trigger automatic model retraining |
 
+---
+
+✅ **Summary:**
+This phase successfully automated the **entire ML lifecycle** — from data ingestion and model retraining to deployment triggers — using **SageMaker Pipelines** and **EventBridge**.  
+The system can now **auto-train and deploy** models whenever new network data is ingested.
+
+---
