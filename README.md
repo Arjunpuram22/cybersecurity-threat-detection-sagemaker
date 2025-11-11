@@ -100,7 +100,7 @@ This project was developed in **four main phases**, following a complete ML life
 - **Pipeline Name:** `simple-cybersecurity-pipeline`
 - **Training Step:** `TrainCybersecurityModel`
 - **Instance Type:** `ml.m5.large`
-- 
+ 
 **Screenshots:**
 | Screenshot | Description |
 |-------------|-------------|
